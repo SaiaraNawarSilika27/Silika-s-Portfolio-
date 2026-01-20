@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Silika-s-Portfolio-/static/css/main.e45dbe62.css",
-    "main.js": "/Silika-s-Portfolio-/static/js/main.1558d6e1.js",
+    "main.js": "/Silika-s-Portfolio-/static/js/main.60b3a79e.js",
     "static/js/453.2ca7c560.chunk.js": "/Silika-s-Portfolio-/static/js/453.2ca7c560.chunk.js",
     "index.html": "/Silika-s-Portfolio-/index.html",
     "main.e45dbe62.css.map": "/Silika-s-Portfolio-/static/css/main.e45dbe62.css.map",
-    "main.1558d6e1.js.map": "/Silika-s-Portfolio-/static/js/main.1558d6e1.js.map",
+    "main.60b3a79e.js.map": "/Silika-s-Portfolio-/static/js/main.60b3a79e.js.map",
     "453.2ca7c560.chunk.js.map": "/Silika-s-Portfolio-/static/js/453.2ca7c560.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e45dbe62.css",
-    "static/js/main.1558d6e1.js"
+    "static/js/main.60b3a79e.js"
   ]
 }
