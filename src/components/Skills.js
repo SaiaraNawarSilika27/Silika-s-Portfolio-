@@ -43,7 +43,8 @@ Payeoo-Money-Transection
           <p className="what-i-do-item-p dark-3" style={{ marginTop: '12px' }}>
             <strong>Project example:</strong>{' '}
             <a 
-              href="https://Silik's-portfolio-link.netlify.app" 
+              href="https://saiaranawarsilika27.github.io/Silika-s-Portfolio-/
+" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ color: '#FD6E0A', textDecoration: 'underline' }}
