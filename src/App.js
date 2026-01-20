@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import Banner from './components/Banner';
+import About from './components/About';
+import Skills from './components/Skills';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="open-sans-normal">
+      {/* We moved the background images here as inline style */}
+      <header
+        className="header1 secondary-bg"
+        style={{
+          backgroundImage: `
+            url(/images/developer.png),
+            url(/images/header_bg.png)
+          `,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'top left, bottom right',
+          backgroundSize: '75px, 694px 347px',
+        }}
+      >
+        <Navbar />
+        <Banner />
       </header>
+
+      <main>
+        <About />
+        <Skills />
+        <Resume />
+        <Contact />
+      </main>
+
+      <Footer />
     </div>
   );
 }
