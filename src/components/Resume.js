@@ -42,7 +42,7 @@ maintainability</li>
           <hr />
         </div>
       </div>
-      <a href="/files/report.pdf"><button className="btn-primary"><i className="fa-solid fa-download"></i> Download CV</button></a>
+      <a href="report.pdf"><button className="btn-primary"><i className="fa-solid fa-download"></i> Download CV</button></a>
     </section>
   );
 };
